@@ -5,19 +5,43 @@ Credit card data from LendingClub, a peer-peer lending service company, was used
 ### Naive Random Oversampling
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.25.11%20PM.png)
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.25.21%20PM.png)
+
+* The Balanced Accuracy Score is 64%.
+* The high risk precision score is 0.01, the recall score is 0.61, and the f1 score is 0.02. 
+*  The low risk precision score is 1, the recall score is 0.68, and the f1 score is 0.81.
 ### SMOTE Oversampling
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.27.20%20PM.png)
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.27.26%20PM.png)
+
+* The Balanced Accuracy Score is 61%.
+* The high risk precision score is 0.01, the recall score is 0.53, and the f1 score is 0.02. 
+*  The low risk precision score is 1, the recall score is 0.70, and the f1 score is 0.82.
 ### Undersampling
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.28.36%20PM.png)
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.28.42%20PM.png)
+
+* The Balanced Accuracy Score is 56%.
+* The high risk precision score is 0.01, the recall score is 0.65, and the f1 score is 0.01. 
+*  The low risk precision score is 1, the recall score is 0.48, and the f1 score is 0.65.
 ### Combination (Over and Under) Sampling
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.29.43%20PM.png)
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.29.48%20PM.png)
+
+* The Balanced Accuracy Score is 66%.
+* The high risk precision score is 0.01, the recall score is 0.75, and the f1 score is 0.02. 
+*  The low risk precision score is 1, the recall score is 0.56, and the f1 score is 0.72.
 ### Balanced Random Forest Classifier
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.30.49%20PM.png)
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.30.56%20PM.png)
+
+* The Balanced Accuracy Score is 80%.
+* The high risk precision score is 0.04, the recall score is 0.70, and the f1 score is 0.07. 
+*  The low risk precision score is 1, the recall score is 0.91, and the f1 score is 0.95.
 ### Easy Ensemble AdaBoost Classifier
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.32.00%20PM.png)
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.32.08%20PM.png)
+
+* The Balanced Accuracy Score is 91%.
+* The high risk precision score is 0.07, the recall score is 0.89, and the f1 score is 0.13. 
+*  The low risk precision score is 1, the recall score is 0.94, and the f1 score is 0.97.
 ## Summary
