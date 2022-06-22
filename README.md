@@ -1,6 +1,13 @@
 # Credit_Risk_Analysis
 ## Overview
-Credit card data from LendingClub, a peer-peer lending service company, was used to analyze credit card risk. Using the **imbalanced-learn** and **skikit-learn** libraries, several machine learning models were built and evaluated using resampling. The data was oversampled using **RandomOverSampler** and **SMOTE**, undersampled using **ClusterCentroids**, then a combination approach of both over and undersampling was done using **SMOTEENN**. To reduce bias, **BalancedRandomForestClassifier** and **EasyEnsembleClassifier** were also run and evaluated. The performance of all six models was evaluated on whether or not they should be used to predict credit risk.  
+Credit card data from LendingClub, a peer-peer lending service company, was used to analyze credit card risk. Using the **imbalanced-learn** and **skikit-learn** libraries, several machine learning models were built and evaluated using resampling. The data was oversampled using **RandomOverSampler** and **SMOTE**, undersampled using **ClusterCentroids**, then a combination approach of both over and undersampling was done using **SMOTEENN**. To reduce bias, **BalancedRandomForestClassifier** and **EasyEnsembleClassifier** were also run and evaluated. The performance of all six models was evaluated on whether or not they should be used to predict credit risk. 
+## Resources/Tools
+- LoanStats_2019Q1.csv
+- Numpy
+- Pandas
+- scikit- learn
+- imbalanced- learn
+
 ## Results 
 ### Naive Random Oversampling
 ![This is an image](https://github.com/dsilvaggio/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-06-14%20at%201.25.11%20PM.png)
